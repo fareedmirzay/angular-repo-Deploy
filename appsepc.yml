@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - sources: /
+  - sources: dist/my-angular-project
   - destination: /var/www/my-angular=dist/my-angular-project
 permissions:
   - object: /var/www/my-angular=dist/my-angular-project
