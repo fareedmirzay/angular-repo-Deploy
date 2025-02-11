@@ -14,7 +14,7 @@ phases:
       - google-chrome-stable --version
   pre_build:
     commands:
-      - npm install
+      - npm install -y
   build:
     commands:
       - echo "Starting Angular tests with ChromeHeadless"
